@@ -1,0 +1,142 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.leave {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #DC3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mnav {
+    background-color: rgb(5, 11, 43);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.av {
+    border: none !important;
+    transition: .2s all ease-in-out !important;
+}
+
+.av:hover {
+    font-size: 2.5vh !important;
+}
+
+.av:active {
+    font-size: 2.8vh !important;
+}
+
+@media (max-width: 767px) {
+
+    #emoji {
+        bottom: 100px;
+    }
+
+    .leave {
+        z-index: "1";
+        position: fixed;
+        top: 10px;
+        right: 20px;
+        bottom: auto;
+    }
+
+    .plist {
+        height: 75vh !important;
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 848px) {
+    .button-container {
+        max-width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .button-container .btn {
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width:767px) {
+    .plist {
+        height: 87vh !important;
+    }
+
+}
+
+.emoji-container {
+    position: fixed;
+    top: 5vh;
+    height: 600px;
+    /* transform: translateX(-50%); */
+    /* animation: fadeOut 2s ease; */
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.emoji-container.hidden {
+    opacity: 0;
+}
+
+.localvid {
+    width: auto;
+    height: 60vh;
+}
+
+.initials {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: #737ce2;
+    text-align: center;
+    margin-right: 13px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white
+}
+
+@media (max-width: 320px) {
+    .col-md-9 {
+        width: 100%;
+    }
+
+    .col-md-3 {
+        width: 100%;
+        height: fit-content;
+        margin-top: 30px;
+    }
+}
+
+
+.hostvid {
+    width: 75% !important;
+    height: 60% !important;
+    position: relative;
+    left: 12vw;
+}
+
+
+.revid {
+    display: none !important;
+}
+
+@media (max-width:530px) {
+    .hostvid {
+        width: 100% !important;
+        height: 80% !important;
+        position: relative;
+        left: 0vw;
+        bottom: 0vh;
+    }
+
+}
