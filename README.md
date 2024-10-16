@@ -86,7 +86,8 @@ npm install
 
 ## Authors
 - [Anushka Shewale](https://github.com/anushkas1204/)
- [Anushka Shewale](https://github.com/Manish0732/)
+- [Manish Joshi](https://github.com/Manish0732/)
+ 
 
 ## Support
 
